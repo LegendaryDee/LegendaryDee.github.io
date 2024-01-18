@@ -1,6 +1,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background: url(images/elegant-disco-ball-with-copy-space.jpg)
+    background: darkslategray;
+
     
 }
 
@@ -17,7 +18,7 @@ body {
 /* Navigation */
 
 #main-nav a {
-    color: pink;
+    color: black;
 
     /*remove the underline*/
     text-decoration: none;
@@ -29,14 +30,14 @@ body {
 }
 
 #main-nav a:hover {
-    background: deeppink;
+    background: gray;
 }
 
 /* Typography (Font Type) */
 h1 {
-    color:blue;
+    color:white;
 }
 
 .special{
-    color: deepskyblue;
+    color: grey;
 }
