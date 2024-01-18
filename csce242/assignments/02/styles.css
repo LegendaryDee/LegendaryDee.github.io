@@ -16,7 +16,7 @@ body {
 
 /* Navigation */
 #main-nav a {
-    color: #0D8C5D;
+    color: #262626;
 
     /*remove the underline*/
     text-decoration: none;
@@ -38,5 +38,5 @@ h1 {
 }
 
 .special{
-    color: #2ABF5E;
+    color: #262626;
 }
