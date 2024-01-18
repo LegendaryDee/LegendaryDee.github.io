@@ -1,11 +1,12 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background: #075933;
+    background: url(images/)
+    
 }
 
 /* Structure */
 #content{
-    background: #0D8C5D;
+    background: #fff;
     padding: 5px;
     width: 80%;
     /* center horizontally */
@@ -13,7 +14,29 @@ body {
     border-radius: 5px;
 }
 
+/* Navigation */
+
+#main-nav a {
+    color: pink;
+
+    /*remove the underline*/
+    text-decoration: none;
+    background: #D9961A;
+    color: #F2EBDC;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+#main-nav a:hover {
+    background: deeppink;
+}
+
 /* Typography (Font Type) */
 h1 {
-    color:#AAA9B0;
+    color:blue;
+}
+
+.special{
+    color: deepskyblue;
 }
