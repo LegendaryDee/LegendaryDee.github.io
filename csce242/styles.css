@@ -24,14 +24,15 @@ body {
     text-decoration: none;
     background: #BFBFBF;
     color: #F2EBDC;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
 
 }
 
 #main-nav a:hover {
     background: gray;
+
 }
 
 /* Typography (Font Type) */
