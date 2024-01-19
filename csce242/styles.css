@@ -12,7 +12,7 @@ body {
     width: 80%;
     /* center horizontally */
     margin: auto; 
-    /*border-radius: 5px;*/
+    border-radius: 5px;
 }
 
 /* Navigation */
@@ -24,8 +24,9 @@ body {
     text-decoration: none;
     background: #BFBFBF;
     color: #F2EBDC;
-    padding: 5px 10px;
-    /*border-radius: 1px;*/
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
 
 }
 
