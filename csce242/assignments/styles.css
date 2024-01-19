@@ -1,6 +1,6 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background: darkslategray;
+    background: url(images/Coding.jpeg)
 
     
 }
@@ -12,7 +12,7 @@ body {
     width: 80%;
     /* center horizontally */
     margin: auto; 
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 /* Navigation */
@@ -25,7 +25,8 @@ body {
     background: #BFBFBF;
     color: #F2EBDC;
     padding: 5px;
-    border-radius: 2px;
+    border-radius: 1px;
+    
 
 }
 
