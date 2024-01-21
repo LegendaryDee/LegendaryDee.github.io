@@ -13,6 +13,11 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+#page-content {
+    background: pink;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 /* Main Navigation */
 #main-nav li {
