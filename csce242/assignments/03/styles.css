@@ -10,7 +10,7 @@ body {
 }
 
 #main-header, main-footer {
-    background: #F22233;
+    background: #D9078F;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
@@ -29,20 +29,26 @@ body {
     border-radius: 5px;
 }
 
-.content-section01 {
+.content-section01of02 {
     background-color: #F25D27;
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
 }
 
-.content-section02 {
-    background-color: #F25D27;
+.content-section01of03,.content-section02of03 {
+    background-color: #1A1859;
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
 }
 
+.content-section01of04, .content-section02of04 {
+    background-color: #59CCD9;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
 /* Navigation */
 #main-nav ul {
     padding-left: 0;
@@ -74,7 +80,7 @@ body {
      display: flex;
     }
 
-    #main-nav li, .content-section02, .content-section03 {
+    #main-nav li, .content-section02, .content-section03, .content-section01of04 {
         flex: 1;
     }
 
