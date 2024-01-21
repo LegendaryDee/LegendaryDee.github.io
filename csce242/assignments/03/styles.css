@@ -10,7 +10,7 @@ body {
 }
 
 #main-header, main-footer {
-    background: skyblue;
+    background: #F22233;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
@@ -24,20 +24,20 @@ body {
     border-radius: 0 0 5px;
 }
 #page-content {
-    background: pink;
+    background: #F22233;
     padding: 5px;
     border-radius: 5px;
 }
 
 .content-section01 {
-    background-color: lightgray;
+    background-color: #F25D27;
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
 }
 
 .content-section02 {
-    background-color: azure;
+    background-color: #F25D27;
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
@@ -60,7 +60,8 @@ body {
   }
 
 #main-nav a:hover {
-    background: #0d0d0d;
+    background: #F25D27;
+    
 }
 /* Typography */
 #main-header h1 {
