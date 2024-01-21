@@ -77,8 +77,9 @@ body {
         flex: 1;
     }
 
-    .content-section02{
+    .content-section02, .content-section02of04{
         flex: 2;
     }
+   
 
 }
