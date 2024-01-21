@@ -23,10 +23,19 @@ body {
 #main-footer {
     border-radius: 0 0 5px;
 }
-#page-content {
+#main-content {
     background: #F22233;
     padding: 5px;
     border-radius: 5px;
+}
+#main.footer {
+    background-color: #D9078F;
+    border-radius: 5px;
+}
+.content {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .content-section01of02 {
@@ -38,9 +47,7 @@ body {
 
 .content-section01of03,.content-section02of03 {
     background-color: #1A1859;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 5px;
+    
 }
 
 .content-section01of04, .content-section02of04 {
