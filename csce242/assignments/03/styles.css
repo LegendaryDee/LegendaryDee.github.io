@@ -18,7 +18,9 @@ body {
 #title {
     text-align: center;
 }
-
+ #nav-itenms{
+    text-decoration: none;
+ }
 #main-header {
     border-radius: 5px 5px 0 0;
     text-align: center;
