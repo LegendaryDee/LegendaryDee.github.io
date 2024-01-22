@@ -51,13 +51,13 @@ body {
     margin: 5px;
 }
 
-.content-section01of03,.content-section02of03 {
+.content-section02of03 {
     background-color: #1A1859;
     
 }
 
-.content-section01of04 {
-    background-color: #59CCD9;
+.content-section01of04, .content-section01of03 {
+    background-color: #F25D27;
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
