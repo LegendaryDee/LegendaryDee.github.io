@@ -10,7 +10,7 @@ body {
 }
 
 #main-header, main-footer {
-    background: #D9078F;
+    background: #AAA9B0;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
@@ -35,7 +35,7 @@ body {
     border-radius: 5px;
 }
 #main.footer {
-    background-color: #D9078F;
+    background-color: #2ABF5E;
     border-radius: 5px;
 }
 .content {
@@ -45,19 +45,19 @@ body {
 }
 
 .content-section01of03, .content-section01of02, .content-section02of03{
-    background: #F25D27;
+    background: #0D8C5D;
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
 }
 
 .content-section02of03 {
-    background-color: #1A1859;
+    background-color: #0D8C5D;
     
 }
 
 .content-section01of04 ,.content-section01of03 {
-    background-color: #F22233;
+    background-color: #0D8C5D;
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
@@ -70,7 +70,7 @@ body {
 #main-nav li {
     list-style-type: none;
     padding-left: 5px;
-    background-color: #1A1859;
+    background-color: #AAA9B0;
     border-bottom: 1px solid;
 }
   #main-nav a {
@@ -79,7 +79,7 @@ body {
   }
 
 #main-nav a:hover {
-    background: #F25D27;
+    background: #2ABF5E;
     
 }
 /* Typography */
