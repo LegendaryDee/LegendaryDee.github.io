@@ -45,7 +45,7 @@ body {
 }
 
 .content-section01of02, .content-section02of03{
-    background-color: #F25D27;
+    background: #F22233;
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
@@ -56,7 +56,7 @@ body {
     
 }
 
-.content-section01of04 {
+.content-section01of04,.content-section01of02 {
     background-color: #59CCD9;
     padding: 5px;
     border-radius: 5px;
