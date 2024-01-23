@@ -18,7 +18,7 @@ body {
 #title {
     text-align: center;
 }
- #nav-itenms{
+ #main-nav{
     text-decoration: none;
  }
 #main-header {
@@ -93,7 +93,7 @@ body {
      display: flex;
     }
 
-    #main-nav li, .content-section02, .content-section03, .content-section01of04 {
+    #main-nav li, .content-section02of01, .content-section030f01, .content-section01of03 {
         flex: 1;
     }
 
