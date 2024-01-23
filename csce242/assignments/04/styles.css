@@ -49,12 +49,12 @@ body {
 }
 
 /* Navigation */
-#main-nav a {
+#navigation a {
     color: #262626;
 
     /*remove the underline*/
     text-decoration: none;
-    background: #262626;
+    background: #2ABF5E;
     color: #F2EBDC;
     padding: 5px;
     margin: 0 10px;
@@ -86,7 +86,7 @@ body {
     text-decoration: none;
 }
 
-#main-nav li {
+#navigationli {
     list-style-type: none;
     padding-left: 5px;
     background-color: #AAA9B0;
@@ -101,7 +101,7 @@ body {
     text-decoration: none;
   }
 
-#main-nav a:hover {
+#navigation a:hover {
     background: #2ABF5E;
     
 }
