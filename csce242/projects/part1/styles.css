@@ -1,0 +1,41 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Structure */
+#content{
+    background: #737373;
+    padding: 5px;
+    width: 80%;
+    /* center horizontally */
+    margin: auto; 
+    border-radius: 5px;
+}
+
+/* Navigation */
+#main-nav a {
+    color: #262626;
+
+    /*remove the underline*/
+    text-decoration: none;
+    background: #262626;
+    color: #F2EBDC;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 2px;
+
+}
+
+#main-nav a:hover {
+    background: #0d0d0d;
+}
+
+/* Typography (Font Type) */
+h1 {
+    color: #f2f2f2;;
+}
+
+.special{
+    color: #262626;
+}
+
