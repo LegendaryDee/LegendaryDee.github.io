@@ -18,9 +18,23 @@ body {
 #title {
     text-align: center;
 }
- #nav-items{
+/* Navigation */
+#nav-items a {
+    color: #F22233;
+
+    /*remove the underline*/
     text-decoration: none;
- }
+    background: #D9078F;
+    color: #F2EBDC;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 2px;
+
+}
+/* navigation items */
+#nav-items a:hover {
+    background: #59CCD9;
+}
 #main-header {
     border-radius: 5px 5px 0 0;
     text-align: center;
@@ -96,7 +110,7 @@ body {
      display: flex;
     }
 
-    #main-nav li, .content-section02, .content-section03, .content-section01of04 {
+    #main-nav li, .content-section02, .content-section03, .content-section01of04, .nav-items {
         flex: 1;
     }
 
