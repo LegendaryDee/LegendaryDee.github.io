@@ -18,6 +18,13 @@ body {
 #title {
     text-align: center;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
  #main-nav{
     text-decoration: none;
  }
@@ -40,7 +47,7 @@ body {
 }
 /* Structure */
 #navigation{
-    background: #737373;
+    
     padding: 5px;
     width: 80%;
     /* center horizontally */
@@ -50,11 +57,11 @@ body {
 
 /* Navigation */
 #navigation a {
-    color: #262626;
+    color: #AAA9B0;
 
     /*remove the underline*/
     text-decoration: none;
-    background: #2ABF5E;
+    background: #012611;
     color: #F2EBDC;
     padding: 5px;
     margin: 0 10px;
