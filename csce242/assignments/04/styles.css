@@ -38,10 +38,28 @@ body {
     background-color: #2ABF5E;
     border-radius: 5px;
 }
-.content {
+/* Structure */
+#navigation{
+    background: #737373;
     padding: 5px;
+    width: 80%;
+    /* center horizontally */
+    margin: auto; 
     border-radius: 5px;
-    margin: 5px;
+}
+
+/* Navigation */
+#main-nav a {
+    color: #262626;
+
+    /*remove the underline*/
+    text-decoration: none;
+    background: #262626;
+    color: #F2EBDC;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 2px;
+
 }
 
 .content-section01of03, .content-section01of02, .content-section02of01{
