@@ -65,6 +65,7 @@ body {
 /* Navigation */
 #main-nav ul {
     padding-left: 0;
+    text-decoration: none;
 }
 
 #main-nav li {
@@ -76,6 +77,10 @@ body {
   #main-nav a {
     text-decoration: none;
     color: white;
+  }
+
+  #nav-items {
+    text-decoration: none;
   }
 
 #main-nav a:hover {
