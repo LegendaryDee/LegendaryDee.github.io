@@ -37,6 +37,7 @@ body {
 
 #main-nav li {
     margin-top: 25px;
+    text-decoration: none;
 }
 
 /* Typography (Font Type) */
