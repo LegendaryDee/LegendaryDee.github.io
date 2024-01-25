@@ -35,6 +35,10 @@ body {
 
 }
 
+#main-nav li {
+    margin-top: 25px;
+}
+
 /* Typography (Font Type) */
 h1 {
     color:white;
