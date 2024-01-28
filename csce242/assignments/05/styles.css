@@ -20,7 +20,13 @@ body {
         background-color: black;
         color: white;
     }
+.column {
+    margin: auto;
+    padding: 5px;
+     
+    border-left: #73000a;
 
+}
 
 
 #mainContent {
@@ -36,6 +42,8 @@ body {
 #main-nav ul {
     padding-left: 0;
     text-decoration: none;
+    font-family: "Berlingske Sans", "Arial", sans-serif;
+
 }
 
 #main-nav li {
@@ -48,11 +56,12 @@ body {
 }
   #main-nav a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
 
 #main-nav a:hover {
-    background: #F25D27;
+    background: #CC2E40;
+    color:white
     
 }
 /* Typography */
