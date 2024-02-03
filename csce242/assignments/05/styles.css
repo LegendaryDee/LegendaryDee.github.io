@@ -1,6 +1,7 @@
 body {
     font-family: "Berlingske Sans", "Arial", sans-serif;
     font-weight: 500;
+    max-width: 100%;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 767px){}
@@ -28,15 +29,19 @@ body {
         text-align: left;
         vertical-align: middle;
     }
-.columnDH {
+.column01 {
 
 }
     
-.columns {
+.column02 {
     margin: auto;
     padding: 5px;
      
     border-left: #73000a;
+
+}
+
+.column03 {
 
 }
 .text{
@@ -47,7 +52,7 @@ body {
 .img{
     max-width:25%;
     max-height:15%;
-    float:left;
+    
 }
 
 
@@ -123,7 +128,7 @@ body {
     text-align: left;
     line-height: 26.200001px;
     padding-bottom: 7.5px;
-    position: absolute;
+    
 }
 
 #side-nav a {
@@ -167,10 +172,10 @@ body {
     padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
+    position: absolute;
     font-size: 16px;
     font-weight: 700;
-    float: left;
+
     width: 1110px;
     display: block;
     line-height: 22.4px;
