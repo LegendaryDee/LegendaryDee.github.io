@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  #page1 {
+    background-color: #277365;
+  }
+  
+  #page2 {
+    background-color: #F29472;
+  }
+  
+  #page3 {
+    background-color: #BF4D34;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  #main-nav ul {
+    background-color: #253659;
+    border-radius: 5px;
+  }
+  
+  #nav-items li {
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  /* Assignment Navigation */
+  #assign-nav {
+    color: black;
+
+    /*remove the underline*/
+    text-decoration: none;
+    /* background: #BFBFBF; */
+    color: #F2EBDC;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+
+  }
+  #assign-nav a {
+    color: black;
+
+    /*remove the underline*/
+    text-decoration: none;
+    background: #BFBFBF;
+    color: #F2EBDC;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+
+  }
+
+  #assign-nav a:hover {
+    background: gray;
+  }
+
+  #assign-nav li {
+    margin-top: 25px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+/* Project Navigation */
+  #project-nav {
+    color: black;
+
+    /*remove the underline*/
+    text-decoration: none;
+    /* background: #BFBFBF; */
+    color: #F2EBDC;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  #project-nav a {
+    color: black;
+
+    /*remove the underline*/
+    text-decoration: none;
+    background: #BFBFBF;
+    color: #F2EBDC;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  #project-nav li {
+    margin-top: 25px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+
+  
+
+  #hamburger {
+    padding: 10px;
+  }
+  
+
+  #hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  
+  
+  .hide {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    
+    #hamburger {
+      display: none;
+    }
+  
+    
+    .flex-container {
+      display: flex;
+    }
+  
+    #main-nav li {
+      flex: 1;
+    }
+  
+    #nav-items {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      justify-content: space-evenly;
+    }
+  }
+  #main-footer {
+    text-align: center;
+  }
+  

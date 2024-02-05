@@ -4,15 +4,26 @@ body {
 
     
 }
+/* header */
+h1 {
+    text-align: center;
+}
 
 /* Structure */
-#assign{
-    
-    padding: 5px;
-    width: 80%;
-    /* center horizontally */
-    margin: 10px; 
-    border-radius: 5px;
+#assign {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    background: #140FA6;
+    color: white;
+}
+
+#projects {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    background: #140FA6;
+    color: white;
 }
 
 /* Navigation */
@@ -27,6 +38,7 @@ body {
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
+    list-style: none;
 
 }
 
@@ -38,6 +50,7 @@ body {
 #main-nav li {
     margin-top: 25px;
     text-decoration: none;
+    list-style-type: none;
 }
 
 /* Typography (Font Type) */
@@ -47,4 +60,21 @@ h1 {
 
 .special{
     color: grey;
+}
+/*Larger Resolutions */
+@media (min-width: 900px)
+{
+    #main-nav ul, .flex-container {
+     display: flex;
+    }
+
+    #main-nav li, .assign, .projects{
+        flex: 1;
+    }
+
+    .content-section02, .content-section02of04{
+        flex: 2;
+    }
+   
+
 }
