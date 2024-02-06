@@ -47,9 +47,9 @@ header {
 } 
 
 .rotate{
-    width: 200px;
-    height: 200px;
-    margin:200px;
+    /* width: 200px;
+    height: 200px; */
+    /* margin:200px; */
     transition: all 2s ease-in-out
 }
 .rotate:hover {
