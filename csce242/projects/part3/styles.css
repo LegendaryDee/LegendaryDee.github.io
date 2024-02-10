@@ -1,11 +1,111 @@
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
   }
+  h2 {
+    text-align: center;
+  }
+  #Sub-title
+  {
+    text-align: left;
+  }
+
+  #image {
+    padding-left: 0%;
+  }
+
+  #text {
+    padding-right: 0%;
+  }
   
   #page1 {
-    background-color: #277365;
+    background-color: lightslategray;
+  }
+  /*Slideshow Container*/
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  /*Next and Previous Buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /*Next Button*/
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /*Hover*/
+  .prev:hover, .next:hover {
+    background: lightslategray;
+  }
+
+  /*Caption Text*/
+  .text {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /*Number Text (1/3) */
+  .numbertext {
+    color: white;
+    font-size: 12px;
+    padding:8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /*Dots/Bullets/Indicators*/
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: lightslategray;
+  }
+
+  /*Fade*/
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
   }
   
   #page2 {
@@ -32,7 +132,7 @@ body {
   }
   
   #main-nav ul {
-    background-color: #253659;
+    background-color: white;
     border-radius: 5px;
   }
   
@@ -149,6 +249,8 @@ body {
       text-align: center;
       justify-content: space-evenly;
     }
+
+
   }
   #main-footer {
     text-align: center;

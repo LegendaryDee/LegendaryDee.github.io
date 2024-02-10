@@ -28,6 +28,12 @@ body {
         list-style-position: outside;
         text-align: left;
         vertical-align: middle;
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
     }
 .column01 {
 
@@ -54,9 +60,7 @@ body {
     max-height:15%;
     
 }
-orange{
-    
-}
+
 
 #mainContent {
     font-size: 20px;
@@ -89,6 +93,29 @@ orange{
 }
 
 #header-nav a:hover {
+    background: #CC2E40;
+    color:white;
+}
+
+
+#footer-nav01{
+    list-style-type: none;
+    display: inline;
+    font-size: 10px;
+    font-family: "Berlinske Sans", Arial, sans-serif;
+    /* height: auto;
+    text-align: left;
+    line-height: 26.200001px;
+    padding-bottom: 7.5px;
+     */
+}
+
+#footer-nav01 a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer-nav01 a:hover {
     background: #CC2E40;
     color:white;
 }
