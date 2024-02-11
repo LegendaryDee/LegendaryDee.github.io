@@ -10,31 +10,31 @@ const toggleHamburger = () => {
 
   const showImages = () =>
   {
-    let userCommand = document.getElementById("enter-command").value.toLowerCase().trim;
+    let userCommand = document.getElementById("enter-command").value.toLowerCase().trim();
 
     if(userCommand == "b")
     {
-        document.getElementById("commandImages").src = "images/read.jpg";
+        document.getElementById("original.jpg").src = "images/read.jpg";
     }
     else if (userCommand == "c")
     {
-        document.getElementById("commandImages").src = "images/clown.jpg";
+        document.getElementById("original.jpg").src = "images/clown.jpg";
     }
     else if (userCommand == "p")
     {
-        document.getElementById("commandImages").src ="images/birthday.jpg";
+        document.getElementById("original.jpg").src ="images/birthday.jpg";
     }
     else if (userCommand == "r")
     {
-        document.getElementById("commandImages").src = "images/rain.jpg";
+        document.getElementById("original.jpg").src = "images/rain.jpg";
     }
     else if (userCommand == "s")
     {
-        document.getElementById("commandImages").src = "images/shovel.jpg";
+        document.getElementById("original.jpg").src = "images/shovel.jpg";
     }
     else if (userCommand == "w")
     {
-        document.getElementById("commandImages").src = "images/work.jpg";
+        document.getElementById("original.jpeg").src = "images/work.jpg";
     }
   }
 
