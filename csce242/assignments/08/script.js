@@ -8,44 +8,88 @@ const toggleHamburger = () => {
     document.getElementById("hamburger").onclick = toggleHamburger;
   };
 
-const changeP = (e) => {
-    e.preventDefault(); //don't go to another page
-    document.getElementById("display").textContent = "Hello Demetrius";
-};
+  const showImages = () =>
+  {
+    let userCommand = document.getElementById("enter-command").value.toLowerCase().trim;
 
-const showExercise = () => {
-    const color = document.getElementById("txt-command").value.toLowerCase().trim();
-    const moodP = document.getElementById("mood");
-    let mood = "undeterminable";
-
-    if (color == "b") {
-        mood = "Read a book";
-    } else if (color == "c") {
-        mood = "Act like a clown";
-    } else if (color == "p") {
-        mood = "Have a birthday party";
-    }
-    else if (color == "r") {
-        mood == "Walk in the rain"
-    }
-    else if (color == "s")
+    if(userCommand == "b")
     {
-        mood == "shovel up some dirt";
+        document.getElementById("commandImages").src = "images/read.jpg";
     }
-    else if (color == "w") {
-        mood == "go to work"
+    else if (userCommand == "c")
+    {
+        document.getElementById("commandImages").src = "images/clown.jpg";
     }
+    else if (userCommand == "p")
+    {
+        document.getElementById("commandImages").src ="images/birthday.jpg";
+    }
+    else if (userCommand == "r")
+    {
+        document.getElementById("commandImages").src = "images/rain.jpg";
+    }
+    else if (userCommand == "s")
+    {
+        document.getElementById("commandImages").src = "images/shovel.jpg";
+    }
+    else if (userCommand == "w")
+    {
+        document.getElementById("commandImages").src = "images/work.jpg";
+    }
+  }
+
+// const changeP = (e) => {
+//     e.preventDefault(); //don't go to another page
+//     document.getElementById("display").textContent = "Hello Demetrius";
+// };
+
+// const showExercise = () => {
+//     const color = document.getElementById("enter-command").value.toLowerCase().trim();
+//     const moodP = document.getElementById("mood");
+//     let mood = "undeterminable";
+
+//     // const showCommand = () => {
+//     //     const color = document.getElementById("enter-command").value.toLowerCase().trim();
+//     //     const moodP = document.getElementById("mood");
+//     //     let mood = "undeterminable";
     
+//     //     if (color == "b") {
+//     //         document.getElementById("commandImages").src="..images/read.jpg";
+//     //     } else if (color == "c") {
+//     //         mood.src = "clown.jpg";
+//     //     } else if (color == "p") {
+//     //         mood.src = "birthday.jpg";
+//     //     }
+//     //     else if (color == "r") {}
+    
+//     //     moodP.innerHTML = `You are in a ${mood}`;
+//     // }
+    
+    const evalForm = (e) => {
+        e.preventDefault();
+        console.log("We did it!!");
+    };
 
-    /*Slider*/
-    var slider = document.getElementById("myRange");
-    var output = document.getElementById("demo");
-    output.innerHTML=slider.value;
+    
+    
+    // function changePic() {   
+    //     if( myPic.src === "a.png") {       
+    //        myPic.src = "b.png";  
+    //      }  else {     
+    //         myPic.src = "a.png"; 
+    //      } 
+    //     }     
+//     /*Slider*/
+//     var slider = document.getElementById("myRange");
+//     var output = document.getElementById("demo");
+//     output.innerHTML=slider.value;
 
-    slider.oninput = function()
-    {
-        output.innerHTML = this.value;
-    }
+//     slider.oninput = function()
+//     {
+//         output.innerHTML = this.value;
+//     }
 
-}
-document.getElementById("txt-command").onkeyup = showExercise;
+// }
+document.getElementById("enter-command").onkeyup = showImages;
+// document.getElementById("form").onsubmit= evalForm;
+// document.getElementById("link-click").onclick = changeP;
