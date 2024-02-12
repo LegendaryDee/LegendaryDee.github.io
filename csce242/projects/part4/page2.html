@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project 3</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="page2">
+    <h1>Request</h1>
+    <nav id="main-nav">
+      <div id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul id="nav-items" class="flex-container hide">
+        <a href="index.html"><li>Home</li></a>
+        <a href="page2.html"><li>Request</li></a>
+        <a href="page3.html"><li>About Me</li></a>
+        <a href="page4.html"><li>Contact Me</li></a>
+        <a href="page5.html"><li>Location</li></a>
+      </ul>
+    </nav>
+
+    <h2>Request A Customized Playlist</h2>
+<div class="column">
+    <section class ="one">
+    <h3>Genre and Favorite Artist</h3>
+        <form id="my-form" action="#" method="get">
+        <p><label for="txt-genre">Genre:</label>
+        <input type= "text" name="txt-genre" required minLength="5">
+        </p>
+        
+        <p><label for="txt-artist">Favorite Artist:</label>
+        <input type="text" name="txt-artist">
+        </p>
+
+        <p><label for="txt-number">Number of Songs</label>
+        <input type="number" min="3">
+        </p>
+
+        <p><label for="txt-email">Your Email:</label>
+        <input type="email">
+        </p>
+        <button type="submit">Continue</button>
+    </form>
+    </section>
+</div>
+    <script src="script.js"></script>
+  </body>
+  <footer id="main-footer"><p>&copy; legendarydee.com</p>
+</html>

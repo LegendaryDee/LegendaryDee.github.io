@@ -36,7 +36,6 @@ const toggleHamburger = () => {
     {
         document.getElementById("commandImages").src = "images/work.jpg";
     }
-    document.getElementById("enter-command").onkeyup = showImages;
   }
   let rangevalue = document.getElementById("myRange");
   let setvalue = document.getElementById("rangevalue");
@@ -49,31 +48,31 @@ const toggleHamburger = () => {
       {
           imgchangevalue.setAttribute("src","images/yoga1.jpg")
       }
-      else if (getvalue >= 9 && getvalue <=19)
+      else if (getvalue >=  10 && getvalue <= 20)
       {
           imgchangevalue.setAttribute("src","images/yoga2.jpg")
       }
-      else if (getvalue >= 20 && getvalue <=30)
+      else if (getvalue >= 21 && getvalue <=31)
       {
           imgchangevalue.setAttribute("src","images/yoga3.jpg")
       }
-      else if (getvalue >= 31 && getvalue <=41)
+      else if (getvalue >= 32 && getvalue <=42)
       {
           imgchangevalue.setAttribute("src","images/yoga4.jpg")
       }
-      else if (getvalue >= 42 && getvalue <=52)
+      else if (getvalue >= 43 && getvalue <=53)
       {
           imgchangevalue.setAttribute("src","images/yoga5.jpg")
       }
-      else if (getvalue >= 53 && getvalue <=63)
+      else if (getvalue >= 54 && getvalue <=64)
       {
-          imgchangevalue.setAttribute("src","image/yoga6.jpg")
+          imgchangevalue.setAttribute("src","images/yoga6.jpg")
       }
-      else if (getvalue >= 64 && getvalue <=74)
+      else if (getvalue >= 65 && getvalue <=75)
       {
           imgchangevalue.setAttribute("src","images/yoga7.jpg")
       }
-      else if (getvalue >= 75 && getvalue <=85)
+      else if (getvalue >= 76 && getvalue <=86)
       {
           imgchangevalue.setAttribute("src","images/yoga8.jpg")
       }
@@ -132,6 +131,6 @@ const toggleHamburger = () => {
 //     }
 
 // }
-
-// document.getElementById("form").onsubmit= evalForm;
-// document.getElementById("link-click").onclick = changeP;
+document.getElementById("enter-command").onkeyup = showImages;
+document.getElementById("form").onsubmit= evalForm;
+document.getElementById("link-click").onclick = changeP;
