@@ -1,9 +1,9 @@
-// Toggles the nav items to show/hide when the hamburger menu is clicked
+
 const toggleHamburger = () => {
     document.getElementById("nav-items").classList.toggle("hide");
   };
   
-  // Calls the toggleHamburger function when the hamburger menu is clicked
+ 
   window.onload = () => {
     document.getElementById("hamburger").onclick = toggleHamburger;
   };
@@ -14,28 +14,70 @@ const toggleHamburger = () => {
 
     if(userCommand == "b")
     {
-        document.getElementById("original.jpg").src = "images/read.jpg";
+        document.getElementById("commandImages").src = "images/read.jpg";
     }
     else if (userCommand == "c")
     {
-        document.getElementById("original.jpg").src = "images/clown.jpg";
+        document.getElementById("commandImages").src = "images/clown.jpg";
     }
     else if (userCommand == "p")
     {
-        document.getElementById("original.jpg").src ="images/birthday.jpg";
+        document.getElementById("commandImages").src = "images/birthday.jpg";
     }
     else if (userCommand == "r")
     {
-        document.getElementById("original.jpg").src = "images/rain.jpg";
+        document.getElementById("commandImages").src = "images/rain.jpg";
     }
     else if (userCommand == "s")
     {
-        document.getElementById("original.jpg").src = "images/shovel.jpg";
+        document.getElementById("commandImages").src = "images/shovel.jpg";
     }
     else if (userCommand == "w")
     {
-        document.getElementById("original.jpeg").src = "images/work.jpg";
+        document.getElementById("commandImages").src = "images/work.jpg";
     }
+    document.getElementById("enter-command").onkeyup = showImages;
+  }
+  let rangevalue = document.getElementById("myRange");
+  let setvalue = document.getElementById("rangevalue");
+  let imgchangevalue = document.getElementById("imgChange")
+  rangevalue.oninput = function()
+  {
+      let getvalue = rangevalue.value;
+      setvalue.innerHTML = this.value;
+      if(getvalue > 0 && getvalue < 9)
+      {
+          imgchangevalue.setAttribute("src","images/yoga1.jpg")
+      }
+      else if (getvalue >= 9 && getvalue <=19)
+      {
+          imgchangevalue.setAttribute("src","images/yoga2.jpg")
+      }
+      else if (getvalue >= 20 && getvalue <=30)
+      {
+          imgchangevalue.setAttribute("src","images/yoga3.jpg")
+      }
+      else if (getvalue >= 31 && getvalue <=41)
+      {
+          imgchangevalue.setAttribute("src","images/yoga4.jpg")
+      }
+      else if (getvalue >= 42 && getvalue <=52)
+      {
+          imgchangevalue.setAttribute("src","images/yoga5.jpg")
+      }
+      else if (getvalue >= 53 && getvalue <=63)
+      {
+          imgchangevalue.setAttribute("src","image/yoga6.jpg")
+      }
+      else if (getvalue >= 64 && getvalue <=74)
+      {
+          imgchangevalue.setAttribute("src","images/yoga7.jpg")
+      }
+      else if (getvalue >= 75 && getvalue <=85)
+      {
+          imgchangevalue.setAttribute("src","images/yoga8.jpg")
+      }
+
   }
 
 // const changeP = (e) => {
@@ -65,10 +107,10 @@ const toggleHamburger = () => {
 //     //     moodP.innerHTML = `You are in a ${mood}`;
 //     // }
     
-    const evalForm = (e) => {
-        e.preventDefault();
-        console.log("We did it!!");
-    };
+    // const evalForm = (e) => {
+    //     e.preventDefault();
+    //     console.log("We did it!!");
+    // };
 
     
     
@@ -90,6 +132,6 @@ const toggleHamburger = () => {
 //     }
 
 // }
-document.getElementById("enter-command").onkeyup = showImages;
+
 // document.getElementById("form").onsubmit= evalForm;
 // document.getElementById("link-click").onclick = changeP;
