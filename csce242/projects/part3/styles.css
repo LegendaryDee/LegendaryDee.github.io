@@ -23,7 +23,7 @@ body {
   }
   
   #page1 {
-    background-color: lightslategray;
+    background-color: white;
   }
   /*Slideshow Container*/
   .slideshow-container {
@@ -109,11 +109,23 @@ body {
   }
   
   #page2 {
-    background-color: #F29472;
+    background-color: white;
+    color:black;
   }
   
   #page3 {
-    background-color: #BF4D34;
+    background-color: white;
+    color:black
+  }
+
+  #page4 {
+    background-color: white;
+    color:black;
+  }
+
+  #page5 {
+    background-color: white;
+    color:black;
   }
   
   h1 {
