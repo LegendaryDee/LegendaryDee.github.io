@@ -1,0 +1,270 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  h2 {
+    text-align: center;
+  }
+  #Sub-title
+  {
+    text-align: left;
+  }
+
+  #image {
+    padding-left: 0%;
+  }
+
+  #text {
+    padding-right: 0%;
+  }
+  
+  #page1 {
+    background-color: #038C3E;
+  }
+  /*Slideshow Container*/
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  /*Next and Previous Buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /*Next Button*/
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /*Hover*/
+  .prev:hover, .next:hover {
+    background: lightslategray;
+  }
+
+  /*Caption Text*/
+  .text {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /*Number Text (1/3) */
+  .numbertext {
+    color: white;
+    font-size: 12px;
+    padding:8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /*Dots/Bullets/Indicators*/
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: lightslategray;
+  }
+
+  /*Fade*/
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  #page2 {
+    background-color: #025951;
+    color:black;
+  }
+  
+  #page3 {
+    background-color: white;
+    color:black
+  }
+
+  #page4 {
+    background-color: #034159;
+    color:black;
+  }
+
+  #page5 {
+    background-color: #02735E;
+    color:black;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  #main-nav ul {
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  #nav-items li {
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  /* Assignment Navigation */
+  #assign-nav {
+    color: black;
+
+    /*remove the underline*/
+    text-decoration: none;
+    /* background: #BFBFBF; */
+    color: #F2EBDC;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+
+  }
+  #assign-nav a {
+    color: black;
+
+    /*remove the underline*/
+    text-decoration: none;
+    background: #BFBFBF;
+    color: #F2EBDC;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+
+  }
+
+  #assign-nav a:hover {
+    background: gray;
+  }
+
+  #assign-nav li {
+    margin-top: 25px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+/* Project Navigation */
+  #project-nav {
+    color: black;
+
+    /*remove the underline*/
+    text-decoration: none;
+    /* background: #BFBFBF; */
+    color: #F2EBDC;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  #project-nav a {
+    color: black;
+
+    /*remove the underline*/
+    text-decoration: none;
+    background: #BFBFBF;
+    color: #F2EBDC;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  #project-nav li {
+    margin-top: 25px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+
+  
+
+  #hamburger {
+    padding: 10px;
+  }
+  
+
+  #hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  
+  
+  .hide {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    
+    #hamburger {
+      display: none;
+    }
+  
+    
+    .flex-container {
+      display: flex;
+    }
+  
+    #main-nav li {
+      flex: 1;
+    }
+  
+    #nav-items {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      justify-content: space-evenly;
+    }
+
+
+  }
+  #main-footer {
+    text-align: center;
+  }
+  
