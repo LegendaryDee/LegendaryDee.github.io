@@ -23,7 +23,8 @@ body {
   }
   
   #page1 {
-    background-color: #038C3E;
+    font-family:Arial, Helvetica, sans-serif;
+    background: url(images/elegant-disco-ball-with-copy-space.jpg)
   }
   /*Slideshow Container*/
   .slideshow-container {
