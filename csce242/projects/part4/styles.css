@@ -1,3 +1,75 @@
+/*Scroll Animation*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+  scroll-snap-type: y mandatory;
+}
+section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+#main-nav{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+nav{
+  background: lightslategray;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: black;
+}
+
+.one {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background: url(images/disco-ceilings.jpg);
+  background-attachment: fixed;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -40,16 +112,13 @@ body {
     padding-right: 0%;
   }
   
-  #page1 {
-    font-family:Arial, Helvetica, sans-serif;
-    background: url(images/elegant-disco-ball-with-copy-space.jpg);
-    color: black;
-  }
+ 
   /*Slideshow Container*/
   .slideshow-container {
-    max-width: 1000px;
+    max-width: 500px;
     position: relative;
     margin: auto;
+  
   }
 
   .mySlides {
@@ -127,7 +196,33 @@ body {
     from {opacity: .4}
     to {opacity: 1}
   }
-  
+  #page1 {
+    font-family:Arial, Helvetica, sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background: url(images/elegant-disco-ball-with-copy-space.jpg);
+    color: white;
+  }
+
+  /*Side by Side*/
+  .wrapper{
+    margin: 150px auto;
+    width: 70%;
+  }
+
+  #sub-title{
+    max-width: 320px;
+    float: left;
+  }
+  .text-box{
+    font-size: 42px;
+    float: left;
+  }
+
+  .second-wrapper {
+    margin: 1
+  }
   #page2 {
     background: url(images/3d-aesthetics-with-shapes-vaporwave-style.jpg);
     color:white;
@@ -176,7 +271,7 @@ body {
     list-style-type: none;
   }
   
-  #main-nav ul {
+  /* #main-nav ul {
     background-color: lightslategray;
     border-radius: 5px;
   }
@@ -198,13 +293,13 @@ body {
     text-align: center;
   }
 
-  /* Assignment Navigation */
+  /* Assignment Navigation 
   #assign-nav {
     color: black;
 
-    /*remove the underline*/
+    /*remove the underline
     text-decoration: none;
-    /* background: #BFBFBF; */
+    /* background: #BFBFBF; 
     color: #F2EBDC;
     padding: 10px;
     margin: 5px;
@@ -214,7 +309,7 @@ body {
   #assign-nav a {
     color: black;
 
-    /*remove the underline*/
+    /*remove the underline
     text-decoration: none;
     background: #BFBFBF;
     color: #F2EBDC;
@@ -232,7 +327,7 @@ body {
     margin-top: 25px;
     text-decoration: none;
     list-style-type: none;
-  }
+  } */
 
 /* Project Navigation */
   #project-nav {

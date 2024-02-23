@@ -12,12 +12,11 @@ const toggleHamburger = () => {
   var position= 0;
   var animate = setInterval(function() {
     position += 5;
-    d.style.top= position + "2px";
-    d.style.bottom = position + "2px";
+    d.style.top= position + "px";
+    d.style.bottom = position + "px";
   }, 100)
 
   function stop()
   {
     clearInterval(animate);
   }
-// document.getElementById("value").
