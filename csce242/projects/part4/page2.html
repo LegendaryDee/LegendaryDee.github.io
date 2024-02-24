@@ -1,55 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Project 3</title>
+    <title>Request</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body id="page2">
-    <h1>Request</h1>
-    <nav id="main-nav">
-      <div id="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <ul id="nav-items" class="flex-container hide">
-        <a href="index.html"><li>Home</li></a>
-        <a href="page2.html"><li>Request</li></a>
-        <a href="page3.html"><li>About the Website</li></a>
-        <a href="page4.html"><li>Contact Me</li></a>
-        <a href="page5.html"><li>Dee's Playlist</li></a>
-      </ul>
-    </nav>
-
-    <h2>Request A Customized Playlist</h2>
-<div class="column">
-    <section class ="forums">
     
-        <form id="my-form" action="#" method="get">
-        <p><label for="txt-genre">Genre: </label>
-        <input type= "text" name="txt-genre" required minLength="5">
-        </p>
+    <!--Navigation items-->      
+    <nav id="main-nav">
+      <label class="logo">DM</label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page2.html">Request</a></li>
+          <li><a href="page3.html">About the Website</a></li>
+          <li><a href="page4.html">Contact Me</a></li>
+          <li><a href="page5.html">Dee's Playlist</a></li>
+        </ul>
+        </nav>
+
         
-        <p><label for="txt-artist">Favorite Artist: </label>
-        <input type="text" name="txt-artist">
-        </p>
+    <div class="container">
+      
+      <section id="p2-one" class="one">
+        <div class="text-box">
+          <p>Place Your Request</p>
+        </div>
 
-        <p><label for="txt-number">Number of Songs: </label>
-        <input type="number" min="3">
-        </p>
+  </section>
 
-        <p><label for="txt-email">Your Email:      </label>
-        <input type="email">
-        </p>
-        <button type="submit">Continue</button>
-    </form>
-    </section>
-</div>
+      </section>
+
+      <section id="p2-two"class ="two">
+        <div class="wrapper">
+          
+          
+            <div id="my-forum">
+              <div class="inputBox">
+                <input type= "text" required="required "name="txt-genre" required minLength="5">
+                <span>Genre</span>
+              </div>
+              <div class="inputBox">
+                <input type="number" id="txt-number" required="required" name="txt-number"  min="3" max="30">
+                <span># of Songs</span>
+              </div>
+                <div class="inputBox">
+                  <input type="text" required="required" name="txt-artist">
+                  <span>Favorite Artist:</span>
+                </div>
+                
+                <div class="inputBox">
+                  <input type="text" required="required">
+                  <span>Occasion:</span>
+                </div>
+                <label for="music-version">Clean or Explicit Playlist:</label>
+
+                <select name="version" id="type">
+                  <option value="clean">Clean</option>
+                  <option value="explicit">Explicit</option>
+                </select>
+
+                <div class="inputBox">
+                  <input type="text" required="required">
+                  <span>Email:</span>
+                </div>
+              </div> 
+        
+      </div>
+      </section>
+
+      <section id="p2-three" class="three">
+        <div class="wrapper">
+          <div class="textbox"></div>
+          <p></p>
+        </div>
+      </div>
+      </section>
     <script src="script.js"></script>
   </body>
-  <footer>
-    
-    <footer id="main-footer"><p>&copy; legendarydee.com</p>
-      Images by <a href="http://www.freepik.com"> macrovector / Freepik</a>
+  
+  <footer id="main-footer">
+    <div class="footerContainer">
+      <div class="social-media-icons">
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page2.html">Request</a></li>
+          <li><a href="page3.html">About the Website</a></li>
+          <li><a href="page4.html">Contact Me</a></li>
+          <li><a href="page5.html">Dee's Playlist</a></li>
+        </ul>
+      </div>
+      <div class="bottom-footer">
+        <footer id="main-footer"><p>&copy; legendarydee.com</p>
+      </div>
+    </div>
   </footer>
 </html>

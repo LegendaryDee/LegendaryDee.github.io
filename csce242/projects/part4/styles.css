@@ -6,9 +6,36 @@
   font-family:Arial, Helvetica, sans-serif;
 }
 
-.container{
-  scroll-snap-type: y mandatory;
+#phone-number{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background-color: black;
+  color:white;
+  font-size: 1.5em;
+  padding: 1em 2em;
+  text-decoration: none;
+  border-radius: 0.3em;
+  
 }
+
+#email{
+  position: absolute;
+  transform: translate(-50%, -50%);
+ left: 50%;
+    /*top: 50%; */
+  background-color: black;
+  color:white;
+  font-size: 1.5em;
+  padding: 1em 2em;
+  text-decoration: none;
+  border-radius: 0.3em;
+}
+
+/* .container{
+  scroll-snap-type: y mandatory;
+} */
 section{
   height: 100vh;
   display: flex;
@@ -16,7 +43,7 @@ section{
   align-items: center;
   scroll-snap-align: start;
 }
-
+/*Header*/
 #main-nav{
   padding:0;
   margin:0;
@@ -60,13 +87,76 @@ nav a {
 nav a:hover {
   background: black;
 }
-
+/*Page*/
 .one {
   width: 100%;
   height: 500px;
   background-position: center;
   background-size: cover;
   background: url(images/disco-ceilings.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+#p2-one{
+  background: none;
+}
+
+#p3-one{
+  background: none;
+}
+
+#p4-one{
+ background: url(images/anime-japan-90s-Favim.com-6541539.gif)
+}
+#p5-one{
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background: url(images/5642180.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.two{
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#p2-two{
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+ 
+  background: url(images/3d-aesthetics-with-shapes-vaporwave-style.jpg);
+  background-attachment: fixed;
+}
+
+#p3-two{
+  text-align: center;
+  width: 100%;
+  height: 500px;
+}
+
+
+.three{
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -105,12 +195,75 @@ body {
   #image {
     padding-left: 0%;
   }
-#footer{
-  color:white;
+
+/*Footer*/
+#main-footer{
+  background-color: lightslategray;
+  height: 80px;
+  width: 100%;
 }
-  #text {
-    padding-right: 0%;
-  }
+.footerContainer {
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+}
+/*Social Media Icons*/
+.social-media-icons{
+  
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icons a{
+text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+
+.social-media-icons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+/*Social Media Hover*/
+.social-media-icons a:hover{
+  background-color: black;
+  transition: 0.5s
+}
+
+.social-media-icons a:hover{
+  color: white;
+  transition: 0.5s
+}
+
+
+footer ul{
+  float: right;
+  margin-right: 20px;
+ 
+}
+
+footer li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+footer a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 5px;
+}
+
+footer a:hover {
+  background: black;
+}
+
+
   
  
   /*Slideshow Container*/
@@ -220,25 +373,56 @@ body {
     float: left;
   }
 
-  .second-wrapper {
-    margin: 1
+  #p3-text-box h2{
+    font-size: 42px;
+    float:right;
   }
+
+  #p-header{
+    float: left;
+   
+  }
+
+  #p3-text-box p{
+    font-size: 24px;
+    float:right;
+  }
+
+  
+
   #page2 {
-    background: url(images/3d-aesthetics-with-shapes-vaporwave-style.jpg);
+    background: url(images/dark-vaporwave.jpg);
     color:white;
+    background-repeat: no-repeat;
+    
+  
+   
   }
   
   #page3 {
-    background: url(images/);
-    color:black
+    background-color: #591623;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+    color: #F25A38;
+  }
+  /*Page 4 Image*/
+  #profile{
+    max-width: 320px;
+    float: left;
+    border-radius: 5px;
+    border: 3px solid #FF824C;
+    margin-right: 15px;
   }
 
   #page4 {
-    background-color: #FF824C;
+    background: url(images/anime-japan-90s-Favim.com-6541539.gif);
     color:black;
   }
-
-  #playlist{
+/*Playlist*/
+  .playlist{
     width:100%;
     float:left;
     text-align:center;
@@ -270,64 +454,6 @@ body {
   ul {
     list-style-type: none;
   }
-  
-  /* #main-nav ul {
-    background-color: lightslategray;
-    border-radius: 5px;
-  }
-  
-  #main-nav a {
-    text-decoration: none;
-    color: whitesmoke;
-    border-radius: 10px;
-  }
-
-#main-nav a:hover {
-    background: black;
-    color: whitesmoke;
-    
-}
-  
-  #nav-items li {
-    padding: 15px 0;
-    text-align: center;
-  }
-
-  /* Assignment Navigation 
-  #assign-nav {
-    color: black;
-
-    /*remove the underline
-    text-decoration: none;
-    /* background: #BFBFBF; 
-    color: #F2EBDC;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-
-  }
-  #assign-nav a {
-    color: black;
-
-    /*remove the underline
-    text-decoration: none;
-    background: #BFBFBF;
-    color: #F2EBDC;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-
-  }
-
-  #assign-nav a:hover {
-    background: gray;
-  }
-
-  #assign-nav li {
-    margin-top: 25px;
-    text-decoration: none;
-    list-style-type: none;
-  } */
 
 /* Project Navigation */
   #project-nav {
@@ -360,11 +486,37 @@ body {
     list-style-type: none;
   }
 
-  form { 
-    margin: 0 auto; 
-    width:250px;
-    }
+  #my-forum { 
+   display: flex;
+   align-items: center;
+   min-height: 50vh;
+   flex-direction: column;
+   gap: 30px; 
+   text-align: center; 
+  }
+
+  #my-contact { 
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    flex-direction: column;
+    gap: 30px; 
+    text-align: center;
+     
+   }
   
+  .inputBox{
+    position: relative;
+    width: 250px;
+  }
+
+  .inputBox input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid rgba(255,255,255,0,25);
+    background: #FB9AFB;
+    border-radius: 5px;
+  }
 
   #hamburger {
     padding: 10px;

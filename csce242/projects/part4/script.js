@@ -37,27 +37,27 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-const updateThermomether = () => {
-    const goal = 10000;
-    const number = document.getElementById("txt-number").value;
-    const errorSpan = document.getElementById("number-error");
-    errorSpan.innerHTML = "";
-    const therm = document.getElementById("thermometer");
-    document.querySelector(":root").style.setProperty('--number', "0%");
+// const updateForum = () => {
+//     const goal = 10000;
+//     const number = document.getElementById("txt-number").value;
+//     const errorSpan = document.getElementById("number-error");
+//     errorSpan.innerHTML = "";
+//     const therm = document.getElementById("forum");
+//     document.querySelector(":root").style.setProperty('--number', "0%");
 
-    /* Error */
-    if (isNaN(number)) {
-        errorSpan.innerHTML = "* Not a valid number";
-        return;
-    } else if (funds < 0) {
-        errorSpan.innerHTML = "* Negative number";
-        return;
-    }
+//     /* Error */
+//     if (isNaN(number)) {
+//         errorSpan.innerHTML = "* Not a valid number";
+//         return;
+//     } else if (funds < 0) {
+//         errorSpan.innerHTML = "* Negative number";
+//         return;
+//     }
 
-    const percent = number / goal * 100;
-    document.querySelector(":root").style.setProperty('--number', percent + "%");
+//     const percent = number / goal * 100;
+//     document.querySelector(":root").style.setProperty('--number', percent + "%");
 
-};
+// };
 
 const evalForm = (e) => {
     e.preventDefault();
@@ -65,5 +65,5 @@ const evalForm = (e) => {
 
 };
 
-document.getElementById("btn-cont").onclick = updateThermomether;
-document.getElementById("my-form").onsubmit = evalForm;
+document.getElementById("btn-cont").onclick = updateForum;
+// document.getElementById("my-form").onsubmit = evalForm;
