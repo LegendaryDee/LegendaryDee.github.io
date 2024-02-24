@@ -446,9 +446,16 @@ footer a:hover {
   }
   
   a {
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: 18px;
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 5px;
+  }
+  a:hover{
+    background: lightslategray;
+
   }
   
   ul {
