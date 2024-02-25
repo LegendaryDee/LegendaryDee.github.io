@@ -141,7 +141,7 @@ nav a:hover {
   background-position: center;
   background-size: cover;
  
-  background: url(images/3d-aesthetics-with-shapes-vaporwave-style.jpg);
+  background: none;
   background-attachment: fixed;
 }
 
@@ -391,29 +391,42 @@ footer a:hover {
   
 
   #page2 {
-    background: url(images/dark-vaporwave.jpg);
-    color:white;
-    background-repeat: no-repeat;
+    width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background: url(images/6301045.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
     
   
    
   }
   
   #page3 {
-    background-color: #591623;
-    background-repeat: no-repeat;
+    width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background: url(images/rotating-disco.gif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
     background-position: center;
     background-size: 100vw 100vh;
     width: 100vw;
     height: 100vh;
-    color: #F25A38;
+    color: whitesmoke;
   }
   /*Page 4 Image*/
   #profile{
     max-width: 320px;
     float: left;
     border-radius: 5px;
-    border: 3px solid #FF824C;
+    border: 3px solid whitesmoke;
     margin-right: 15px;
   }
 
@@ -521,7 +534,8 @@ footer a:hover {
     width: 100%;
     padding: 7px;
     border: 1px solid rgba(255,255,255,0,25);
-    background: #FB9AFB;
+    background: black;
+    color: whitesmoke;
     border-radius: 5px;
   }
 
