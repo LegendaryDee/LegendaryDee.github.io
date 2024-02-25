@@ -350,8 +350,8 @@ footer a:hover {
     to {opacity: 1}
   }
   #page1 {
-    width: 100%;
-  height: 500px;
+    /* width: 100%;
+  height: 500px; */
   background-position: center;
   background-size: cover;
   background: url(images/elegant-disco-ball-with-copy-space.jpg);
@@ -397,8 +397,8 @@ footer a:hover {
   
 
   #page2 {
-    width: 100%;
-  height: 500px;
+    /* width: 100%;
+  height: 500px; */
   background-position: center;
   background-size: cover;
   background: url(images/6301045.jpg);
@@ -414,8 +414,8 @@ footer a:hover {
   }
   
   #page3 {
-    width: 100%;
-  height: 500px;
+    /* width: 100%;
+  height: 500px; */
   background-position: center;
   background-size: cover;
   background: url(images/rotating-disco.gif);
