@@ -5,6 +5,12 @@
   box-sizing: border-box;
   font-family:Arial, Helvetica, sans-serif;
 }
+#music {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 #phone-number{
   position: absolute;
@@ -93,7 +99,7 @@ nav a:hover {
   height: 500px;
   background-position: center;
   background-size: cover;
-  background: url(images/disco-ceilings.jpg);
+  background: none;
   background-attachment: fixed;
   background-repeat: no-repeat;
     background-position: center;
@@ -132,7 +138,13 @@ nav a:hover {
   height: 500px;
   background-position: center;
   background-size: cover;
+  background: url(images/disco-ceilings.jpg);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 #p2-two{
