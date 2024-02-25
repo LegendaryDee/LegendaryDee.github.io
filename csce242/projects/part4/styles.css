@@ -92,6 +92,7 @@ nav a {
 
 nav a:hover {
   background: black;
+  transition: .5s;
 }
 /*Page*/
 .one {
@@ -199,7 +200,19 @@ nav a:hover {
     width: 100vw;
     height: 100vh;
 }
-
+#p2-three{
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background: none;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+}
 #p5-three{
   width: 100%;
   height: 500px;
@@ -431,6 +444,7 @@ footer a:hover {
   .text-box{
     font-size: 42px;
     float: left;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   #p3-text-box h2{
@@ -599,17 +613,26 @@ footer a:hover {
     border-radius: 5px;
   }
 
-  #hamburger {
-    padding: 10px;
+  /* .hbg-btn{
+   font-size: 30px;
+   color:white;
+   float: right;
+   line-height: 80px;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
   }
+  #hamburger {
+    display: none;
+  } */
   
 
-  #hamburger div {
+  /* #hamburger div {
     width: 25px;
     height: 3px;
     background-color: white;
     margin: 6px 0;
-  }
+  } */
   
   
   .hide {
@@ -622,13 +645,18 @@ footer a:hover {
     margin-right: auto;
     /* width: 50%; */
   }
-  @media screen and (min-width: 768px) {
-    
+  @media screen and (min-width: 952px) {
+    label.logo {
+      font-size: 30px;
+      padding-left: 50px;
+    }
     #hamburger {
       display: none;
     }
   
-    
+    /* nav a{
+      font-size: 16px;
+    } 
     .flex-container {
       display: flex;
     }
@@ -642,11 +670,37 @@ footer a:hover {
       padding: 0;
       text-align: center;
       justify-content: space-evenly;
-    }
+    } */
 
 
   }
-  #main-footer {
-    text-align: center;
+  
+  @media (max-width: 858px) {
+    /* .hbg-btn {
+      display: block;
+    }
+     nav ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: black;
+      top: 80px;
+      left: -100px;
+      text-align: center;
+      transition: all .5s;
+    }
+    
+    nav li {
+      display: block;
+    }
+
+    nav a {
+      font-size: 20px;
+    }
+
+    a:hover, a:active{
+      background: none;
+      color: whitesmoke;
+    } */
   }
   
