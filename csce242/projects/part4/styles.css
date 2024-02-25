@@ -230,12 +230,12 @@ border-radius: 50%;
 }
 /*Social Media Hover*/
 .social-media-icons a:hover{
-  background-color: black;
+  background-color: lightslategray;
   transition: 0.5s
 }
 
 .social-media-icons a:hover{
-  color: white;
+  color: black;
   transition: 0.5s
 }
 
