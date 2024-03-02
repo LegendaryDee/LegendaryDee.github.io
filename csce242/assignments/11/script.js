@@ -17,12 +17,12 @@ class Tree {
     h3.innerHTML = this.title;
     section.append(h3);
 
-    // const arrow = document.createElement("a");
-    // arrow.href = "#";
-    // arrow.innerHTML = "&#x2964;";
-    // arrow.classList.add("arrow");
-    // h3.append(arrow);
-    // arrow.onclick = this.expandContract;
+    const arrow = document.createElement("a");
+    arrow.href = "#";
+    arrow.innerHTML = "&#x2964;";
+    arrow.classList.add("arrow");
+    h3.append(arrow);
+    arrow.onclick = this.expandContract;
 
     const columns = document.createElement("section");
     columns.classList.add("columns");
@@ -31,13 +31,12 @@ class Tree {
     const imageSection = document.createElement("section");
     columns.append(imageSection);
     imageSection.append(this.picture(this.pic));
-    
 
     const moreSection = document.createElement("section");
     moreSection.classList.add("hidden", "more");
     moreSection.append(this.paragraph("Type", this.type));
     moreSection.append(this.paragraph("Growth Rate", this.growthRate));
-    moreSection.append(this.paragraph("Height", this.height));
+    moreSection.append(this.paragraph("height", this.height));
     moreSection.append(this.paragraph("Life Span", this.lifeSpan));
     moreSection.append(this.paragraph("Habitat", this.habitat));
     columns.append(moreSection);
@@ -57,11 +56,6 @@ class Tree {
     }
 
     section.classList.toggle("hidden");
-  }
-
-  get expandSection()
-  {
-
   }
 
   paragraph(title, info) {
@@ -84,10 +78,10 @@ class Tree {
 }
 
 const trees = [];
-trees.push(new Tree("Coco", "Morkie", "Black", 5, "small", 'azalea.jpeg'));
-trees.push(new Tree("Sam", "Golden", "Yellow", 1, "med", 'redmaple.jpeg'));
-trees.push(new Tree("Gerald", "Pit Bull", "White", 3, "lg", 'dogwood.jpeg'));
-trees.push(new Tree("Gerald", "Pit Bull", "White", 3, "lg", 'palmetto.jpeg'));
+trees.push(new Tree("Coco", "Morkie", "Black", 5, "small", "azalea.jpg"));
+trees.push(new Tree("Sam", "Golden", "Yellow", 1, "med", "redmaple.jpg"));
+trees.push(new Tree("Gerald", "Pit Bull", "White", 3, "lg", "dogwood.jpg"));
+trees.push(new Tree("Gerald", "Pit Bull", "White", 3, "lg", "palmetto.jpg"));
 
 trees.forEach((tree) => {
   document.getElementById("tree-list").append(tree.item);
