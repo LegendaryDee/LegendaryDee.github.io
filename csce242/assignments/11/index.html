@@ -13,9 +13,24 @@
     <main>
       <section id="tree-list"></section>
     </main>
-    <footer id="main-footer" class="padded-area">
-      <p>Goodbye</p>
-    </footer>
+    <!-- The Modal -->
+    <div id="dialog" class="w3-modal">
+      <div class="w3-modal-content">
+        <div class="w3-container">
+          <span onclick="document.getElementById('dialog').style.display='none'"
+          class="w3-button w3-display-topright">&times;</span>
+          <section id="dialog-content" class="columns">
+            <section>
+              <img src="">
+            </section>
+            <section id="dialog-details"></section>
+          </section>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
+  <footer id="main-footer" class="padded-area">
+    <p>Goodbye</p>
+  </footer>
 </html>

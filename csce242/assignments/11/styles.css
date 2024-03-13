@@ -1,14 +1,20 @@
 /* Structure */
 
 :root {
-  --primary: darkblue;
-  --secondary: darkgreen;
-  --tertiary: orange;
-  --back: azure;
-  --headback: bisque;
-  --mainback: cadetblue;
-  --footback: honeydew;
+  --primary: lightslategray;
+  --secondary: lightslategray;
+  --tertiary: lightslategray;
+  --back: lightslategray;
+  --headback: lightslategray;
+  --mainback: lightslategray;
+  --footback: lightslategray;
   --num: 15%;
+}
+
+img {
+  max-width: 200px;
+  height: 200px;
+
 }
 
 body {
