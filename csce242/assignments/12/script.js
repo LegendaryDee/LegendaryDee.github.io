@@ -1,18 +1,5 @@
 const getHouses = async () => {
-    const url =" https://portiaportia.github.io/json/house-plans.json";
-    
-
-    try {
-        const response = await fetch(url);
-        return await response.json();
-    }    catch(error){
-            console.log(error);
-        }
-    
-};
-
-const getImages = async () => {
-    const url =" https://portiaportia.github.io/json/images/house-plans/farm.webp";
+    const url ="https://portiaportia.github.io/json/house-plans.json";
     
 
     try {
@@ -50,9 +37,8 @@ const getHouseItem = (house) => {
     ul.append(getLi(house.features));
 
     let img = document.createElement("img");
-    section.append("img");
-    // img.append(getImg(house."main_image));
-    // img.append(getImg(house.farm))
+    section.append(img);
+    img.src= "https://portiaportia.github.io/json/images/house-plans/" + house.main_image;
     
     
     section.append(getFeatures(house.features));
@@ -65,24 +51,6 @@ const getLi = data => {
     li.textContent = data;
     return li;
 };
-
-const getImg = data => {
-    const img = document.createElement("img");
-    img.textContent = data;
-    return img;
-};
-
-// const getImage = async(main_image, image) => {
-//     try {
-//         return (
-//             await fetch(
-//                 `https://maps.google.com/maps?q=${latitude},${longitude}&t=&z=15&ie=UTF8&iwloc=&&output=embed`
-//             )
-//         ).url;
-//     } catch (error) {
-//         console.log(error);
-//     }
-// };
 
 
 const getFeatures = (features) => {
