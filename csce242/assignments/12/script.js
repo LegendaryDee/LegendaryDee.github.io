@@ -25,6 +25,7 @@ const showHouses = async() => {
 const getHouseItem = (house) => {
     let section = document.createElement("section");
 
+    
     let h3 = document.createElement("h3");
     h3.innerText = house.name;
     section.append(h3);

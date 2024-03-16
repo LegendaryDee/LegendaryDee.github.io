@@ -19,7 +19,11 @@
   h1{
     text-align: center;
   }
-  
+
+  .section{
+    background-color: aliceblue;
+  }
+
   
   /* Navigation */
   #main-nav ul {

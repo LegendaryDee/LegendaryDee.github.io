@@ -53,6 +53,16 @@ h1 {
     list-style-type: none;
 }
 
+#img-div img{
+    width: 50px;;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 50px;
+    
+}
+
+
 /* Typography (Font Type) */
 h1 {
     color:white;
@@ -68,13 +78,20 @@ h1 {
      display: flex;
     }
 
-    #main-nav li, .assign, .projects{
+    #demo img{
+        width: 50%;
+    }
+
+    #main-nav li, .assign, .projects {
         flex: 1;
     }
 
-    .content-section02, .content-section02of04{
-        flex: 2;
+    
+
+    .img-div{
+        width: 100%;
     }
    
 
 }
+
