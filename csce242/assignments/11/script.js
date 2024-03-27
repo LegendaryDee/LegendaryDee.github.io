@@ -12,14 +12,13 @@ class Tree {
       const expandSection = document.createElement("section");
       expandSection.classList.add("treeImage")
   
-      expandSection.append(this.paragraph("Type", this.type));
-      expandSection.append(this.paragraph("growthRate", this.growthRate));
-      expandSection.append(this.paragraph("Height", this.height));
-      expandSection.append(this.paragraph("Life Span", this.lifeSpan));
-      expandSection.append(this.paragraph("Habitat", this.habitat));
+      expandSection.append(this("Type", this.type));
+      expandSection.append(this("growthRate", this.growthRate));
+      expandSection.append(this("Height", this.height));
+      expandSection.append(this("Life Span", this.lifeSpan));
+      expandSection.append(this("Habitat", this.habitat));
+      expandSection.append(this("Tree", this.pic));
      
-      
-  
       return expandSection;
       
     }
@@ -94,4 +93,4 @@ trees.forEach((tree) => {
 
   
 
-
+  

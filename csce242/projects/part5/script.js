@@ -1,6 +1,6 @@
 const getPlaylists = async() =>
 {
-    const url ="https://legendarydee.github.io/json/playlist-info.json";
+    const url ="https://legendarydee.github.io/csce242/json/playlist-info.json";
     
 
     try {
@@ -9,6 +9,7 @@ const getPlaylists = async() =>
     }    catch(error){
             console.log(error);
         }
+    
 };
 
 const showPlaylists = async() =>
@@ -20,6 +21,7 @@ const showPlaylists = async() =>
         document.getElementById("playlist-section").append(getPlaylistSection(playlist));
 
     });
+    
 };
 
 const getPlaylistSection = (playlist) =>
